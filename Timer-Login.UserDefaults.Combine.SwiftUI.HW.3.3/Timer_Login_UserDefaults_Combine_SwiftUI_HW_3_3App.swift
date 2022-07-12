@@ -11,7 +11,7 @@ import SwiftUI
 struct Timer_Login_UserDefaults_Combine_SwiftUI_HW_3_3App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StarterView().environmentObject(UserManager())
         }
     }
 }

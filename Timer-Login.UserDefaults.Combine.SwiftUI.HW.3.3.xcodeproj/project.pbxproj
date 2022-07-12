@@ -15,6 +15,9 @@
 		A111D37E2875F40E00EA66B7 /* Timer_Login_UserDefaults_Combine_SwiftUI_HW_3_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A111D37D2875F40E00EA66B7 /* Timer_Login_UserDefaults_Combine_SwiftUI_HW_3_3UITests.swift */; };
 		A111D3802875F40E00EA66B7 /* Timer_Login_UserDefaults_Combine_SwiftUI_HW_3_3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A111D37F2875F40E00EA66B7 /* Timer_Login_UserDefaults_Combine_SwiftUI_HW_3_3UITestsLaunchTests.swift */; };
 		A111D38D28761EED00EA66B7 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A111D38C28761EED00EA66B7 /* TimeCounter.swift */; };
+		A111D38F287A914900EA66B7 /* RegisteredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A111D38E287A914900EA66B7 /* RegisteredView.swift */; };
+		A111D391287A931900EA66B7 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A111D390287A931900EA66B7 /* UserManager.swift */; };
+		A111D393287A984700EA66B7 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A111D392287A984700EA66B7 /* StarterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		A111D37D2875F40E00EA66B7 /* Timer_Login_UserDefaults_Combine_SwiftUI_HW_3_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer_Login_UserDefaults_Combine_SwiftUI_HW_3_3UITests.swift; sourceTree = "<group>"; };
 		A111D37F2875F40E00EA66B7 /* Timer_Login_UserDefaults_Combine_SwiftUI_HW_3_3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer_Login_UserDefaults_Combine_SwiftUI_HW_3_3UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A111D38C28761EED00EA66B7 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
+		A111D38E287A914900EA66B7 /* RegisteredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisteredView.swift; sourceTree = "<group>"; };
+		A111D390287A931900EA66B7 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		A111D392287A984700EA66B7 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +103,10 @@
 			isa = PBXGroup;
 			children = (
 				A111D3622875F40D00EA66B7 /* Timer_Login_UserDefaults_Combine_SwiftUI_HW_3_3App.swift */,
+				A111D392287A984700EA66B7 /* StarterView.swift */,
+				A111D38E287A914900EA66B7 /* RegisteredView.swift */,
 				A111D3642875F40D00EA66B7 /* ContentView.swift */,
+				A111D390287A931900EA66B7 /* UserManager.swift */,
 				A111D38C28761EED00EA66B7 /* TimeCounter.swift */,
 				A111D3662875F40E00EA66B7 /* Assets.xcassets */,
 				A111D3682875F40E00EA66B7 /* Preview Content */,
@@ -260,8 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A111D38F287A914900EA66B7 /* RegisteredView.swift in Sources */,
 				A111D38D28761EED00EA66B7 /* TimeCounter.swift in Sources */,
+				A111D393287A984700EA66B7 /* StarterView.swift in Sources */,
 				A111D3652875F40D00EA66B7 /* ContentView.swift in Sources */,
+				A111D391287A931900EA66B7 /* UserManager.swift in Sources */,
 				A111D3632875F40D00EA66B7 /* Timer_Login_UserDefaults_Combine_SwiftUI_HW_3_3App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
