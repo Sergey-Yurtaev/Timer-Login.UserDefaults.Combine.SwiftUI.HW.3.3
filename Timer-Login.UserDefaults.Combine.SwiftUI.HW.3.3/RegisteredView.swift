@@ -38,7 +38,7 @@ struct RegisteredView: View {
     }
     
     var textColor: Color {
-        validCount ? .green : .red
+        validCount ? .green : .blue
     }
     
 }
