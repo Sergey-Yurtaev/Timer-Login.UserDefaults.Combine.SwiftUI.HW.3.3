@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A111D3632875F40D00EA66B7 /* Timer_Login_UserDefaults_Combine_SwiftUI_HW_3_3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A111D3622875F40D00EA66B7 /* Timer_Login_UserDefaults_Combine_SwiftUI_HW_3_3App.swift */; };
-		A111D3652875F40D00EA66B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A111D3642875F40D00EA66B7 /* ContentView.swift */; };
+		A111D3652875F40D00EA66B7 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A111D3642875F40D00EA66B7 /* TimerView.swift */; };
 		A111D3672875F40E00EA66B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A111D3662875F40E00EA66B7 /* Assets.xcassets */; };
 		A111D36A2875F40E00EA66B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A111D3692875F40E00EA66B7 /* Preview Assets.xcassets */; };
 		A111D3742875F40E00EA66B7 /* Timer_Login_UserDefaults_Combine_SwiftUI_HW_3_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A111D3732875F40E00EA66B7 /* Timer_Login_UserDefaults_Combine_SwiftUI_HW_3_3Tests.swift */; };
@@ -18,6 +18,9 @@
 		A111D38F287A914900EA66B7 /* RegisteredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A111D38E287A914900EA66B7 /* RegisteredView.swift */; };
 		A111D391287A931900EA66B7 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A111D390287A931900EA66B7 /* UserManager.swift */; };
 		A111D393287A984700EA66B7 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A111D392287A984700EA66B7 /* StarterView.swift */; };
+		A1428502287F4EA300C4866D /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1428501287F4EA300C4866D /* DataManager.swift */; };
+		A1428506287F5A4700C4866D /* ActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1428505287F5A4700C4866D /* ActionButtonView.swift */; };
+		A1428508287F5BD400C4866D /* ButtonAppearanceModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1428507287F5BD400C4866D /* ButtonAppearanceModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +43,7 @@
 /* Begin PBXFileReference section */
 		A111D35F2875F40D00EA66B7 /* Timer-Login.UserDefaults.Combine.SwiftUI.HW.3.3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Timer-Login.UserDefaults.Combine.SwiftUI.HW.3.3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A111D3622875F40D00EA66B7 /* Timer_Login_UserDefaults_Combine_SwiftUI_HW_3_3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer_Login_UserDefaults_Combine_SwiftUI_HW_3_3App.swift; sourceTree = "<group>"; };
-		A111D3642875F40D00EA66B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A111D3642875F40D00EA66B7 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		A111D3662875F40E00EA66B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A111D3692875F40E00EA66B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A111D36F2875F40E00EA66B7 /* Timer-Login.UserDefaults.Combine.SwiftUI.HW.3.3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Timer-Login.UserDefaults.Combine.SwiftUI.HW.3.3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +55,9 @@
 		A111D38E287A914900EA66B7 /* RegisteredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisteredView.swift; sourceTree = "<group>"; };
 		A111D390287A931900EA66B7 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		A111D392287A984700EA66B7 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		A1428501287F4EA300C4866D /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		A1428505287F5A4700C4866D /* ActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonView.swift; sourceTree = "<group>"; };
+		A1428507287F5BD400C4866D /* ButtonAppearanceModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAppearanceModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +111,11 @@
 				A111D3622875F40D00EA66B7 /* Timer_Login_UserDefaults_Combine_SwiftUI_HW_3_3App.swift */,
 				A111D392287A984700EA66B7 /* StarterView.swift */,
 				A111D38E287A914900EA66B7 /* RegisteredView.swift */,
-				A111D3642875F40D00EA66B7 /* ContentView.swift */,
+				A1428507287F5BD400C4866D /* ButtonAppearanceModifier.swift */,
+				A111D3642875F40D00EA66B7 /* TimerView.swift */,
 				A111D390287A931900EA66B7 /* UserManager.swift */,
+				A1428505287F5A4700C4866D /* ActionButtonView.swift */,
+				A1428501287F4EA300C4866D /* DataManager.swift */,
 				A111D38C28761EED00EA66B7 /* TimeCounter.swift */,
 				A111D3662875F40E00EA66B7 /* Assets.xcassets */,
 				A111D3682875F40E00EA66B7 /* Preview Content */,
@@ -269,11 +278,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1428508287F5BD400C4866D /* ButtonAppearanceModifier.swift in Sources */,
 				A111D38F287A914900EA66B7 /* RegisteredView.swift in Sources */,
 				A111D38D28761EED00EA66B7 /* TimeCounter.swift in Sources */,
 				A111D393287A984700EA66B7 /* StarterView.swift in Sources */,
-				A111D3652875F40D00EA66B7 /* ContentView.swift in Sources */,
+				A1428502287F4EA300C4866D /* DataManager.swift in Sources */,
+				A111D3652875F40D00EA66B7 /* TimerView.swift in Sources */,
 				A111D391287A931900EA66B7 /* UserManager.swift in Sources */,
+				A1428506287F5A4700C4866D /* ActionButtonView.swift in Sources */,
 				A111D3632875F40D00EA66B7 /* Timer_Login_UserDefaults_Combine_SwiftUI_HW_3_3App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

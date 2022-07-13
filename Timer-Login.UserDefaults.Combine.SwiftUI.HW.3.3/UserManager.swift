@@ -6,21 +6,23 @@
 //
 
 import Combine
-import SwiftUI
 
-class UserManager: ObservableObject {
+final class UserManager: ObservableObject { // Любая попытка унаследовать класс приведет к ошибке компиляции, предотвращяем переопределение класса 
     
-    @Published var isRegister  = false // будем следить за изменениями этого свойства и разрешать логиниться в приложенении, если свойство равно true. будет отображаться либо экран логина или основной экран.
+    @Published var user = User() // будем следить за изменениями этого свойства и разрешать логиниться в приложенении, если свойство равно true. будет отображаться либо экран логина или основной экран.
     
-    var name = ""
+    var nameIsValid: Bool {
+        user.name.count >= 3
+    }
     
     init() {}
     
-    init(name: String) {
-        self.name = name
+    init(user: User) {
+        self.user = user
     }
+}
 
-    func delete() {
-        UserDefaults.standard.set("", forKey: "Name")
-    }
+struct User: Codable { // модель
+    var name = ""
+    var isRegistered = false
 }

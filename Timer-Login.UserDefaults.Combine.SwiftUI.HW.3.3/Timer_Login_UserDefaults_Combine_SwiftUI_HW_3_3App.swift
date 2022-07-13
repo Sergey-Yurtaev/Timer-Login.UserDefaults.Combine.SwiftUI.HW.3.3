@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct Timer_Login_UserDefaults_Combine_SwiftUI_HW_3_3App: App {
+    
+    private let user = DataManager.shared.loadUser()
+    
     var body: some Scene {
         WindowGroup {
-            StarterView().environmentObject(UserManager())
+            StarterView()
+                .environmentObject(UserManager(user: user))
         }
     }
 }
