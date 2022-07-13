@@ -8,16 +8,20 @@
 import SwiftUI
 
 struct StarterView: View {
-    @EnvironmentObject var user: UserManager
+    
+    @EnvironmentObject var userManager: UserManager
     
     var saveName = UserDefaults.standard.string(forKey: "Name")
     
     var body: some View {
         Group {
-            if user.isRegister {
-                ContentView()
+            if userManager.user.isRegistered {
+                TimerView()
             } else {
-                RegisteredView()
+                RegisterView()
+                    .onTapGesture {
+                        UIApplication.shared.endEditing() // скрытие клавиатуры 
+                    }
             }
         }
     }
@@ -27,5 +31,11 @@ struct StarterView_Previews: PreviewProvider {
     static var previews: some View {
         StarterView()
             .environmentObject(UserManager())
+    }
+}
+
+extension UIApplication {
+    func endEditing() {
+        sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
     }
 }
